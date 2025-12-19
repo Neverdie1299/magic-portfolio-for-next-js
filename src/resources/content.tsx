@@ -83,7 +83,7 @@ const home: Home = {
 
 const about: About = {
   path: "/about",
-  label: "A propos de nous",
+  label: "Qui sommes-nous ?",
   title: `About – ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
@@ -234,7 +234,7 @@ const about: About = {
 
 const blog: Blog = {
   path: "/blog",
-  label: "Blog",
+  label: "Nos projets",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
@@ -252,7 +252,7 @@ const work: Work = {
 
 const gallery: Gallery = {
   path: "/gallery",
-  label: "Gallery",
+  label: "Gallerie",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
   // Images by https://lorant.one
