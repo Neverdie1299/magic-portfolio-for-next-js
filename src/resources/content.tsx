@@ -8,8 +8,8 @@ const person: Person = {
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
   email: "marson.zaiari@gmail.com",
-  location: "Madagascar", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Malgache"], // optional: Leave the array empty if you don't want to display languages
+  location: "Africa/Madagascar", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
